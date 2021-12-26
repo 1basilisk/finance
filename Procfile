@@ -1,2 +1,2 @@
-web: gunicorn wsgi:app
-heroku ps:scale web=1 --app stock-mock
+web: gunicorn finance:app
+heroku ps:scale web=1 
