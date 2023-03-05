@@ -1,4 +1,5 @@
 # finance
 Stock buying/selling simulation
 
-MOS project.
+MOS project Sem 4
+
