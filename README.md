@@ -51,14 +51,14 @@ Run the setup script
 ```
 OR set up manually
 
-Install the python3.8, create a virtualenv, install dependencies and start the server.
+Install python3.8-distutils, create a virtualenv, install dependencies and start the server.
 ```sh
 git clone https://github.com/1basilisk/finance
 cd finance
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.8
+sudo apt install python3.8-distutils
 sudo apt install virtualenv
 virtualenv -p python3.8 env
 source env/bin/activate
