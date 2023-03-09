@@ -22,4 +22,5 @@ echo "installing requiremnts"
 pip install --requirement requirements.txt
 
 echo "Setup complete" 
+echo "to set your API key: export API_KEY=<api_key_from_iex_cloud>"
 echo "to run the app: flask run"
