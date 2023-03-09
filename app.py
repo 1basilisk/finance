@@ -257,8 +257,10 @@ def sell():
         # variables
         symbol = request.form.get("symbol")
         info = lookup(symbol)  # fetches data through API
-
+        symbol=symbol.upper()
+        
         # shares owned
+        stocks = db.execute("SELECT * FROM portfolio WHERE user_id = ? and symbol = ?", user_id, symbol)
         shares = int(stocks[0]["quantity"])
 
         shares_to_sell = int(request.form.get("shares"))
