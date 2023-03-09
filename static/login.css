@@ -26,6 +26,11 @@ form {
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
 }
+
+.blur{
+  backdrop-filter: blur(5px);
+}
+
 form * {
   font-family: "Poppins", sans-serif;
   color: #ffffff;

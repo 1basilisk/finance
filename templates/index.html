@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block main %}
-<table class = "table">
+<table class = "table blur">
     <thead class="thead-dark">
         <tr>
             <th scope="col"> Symbol</th> 
@@ -24,7 +24,7 @@
     <tbody>
 
         {% for stock in stocks %}
-        <tr> 
+        <tr style="color: white;"> 
             <td> {{ stock["symbol"] }}</td>
             <td> {{ stock["stock_name"] }}</td>
             <td> {{ stock["quantity"] }}</td>
