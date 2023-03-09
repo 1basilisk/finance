@@ -16,6 +16,7 @@ The web app enables you to simulate stock trading at real-time market prices FRE
 - Users can see their transaction history and Portfolio.
 - Users can recharge their wallet.
 - The app can handle multiple users.
+- Passwords of users are securely hashed before saving for security
 
 
 
