@@ -44,8 +44,13 @@ The code is available for everyone to use at https://github.com/1basilisk/financ
 
 StockSimulator requires [pyhton3.8](https://python.org/) to run.
 
-Install the python3.8, create a virtualenv, install dependencies and start the server.
 
+Run the setup script
+```sh
+./setup.sh
+```
+OR set up manually
+Install the python3.8, create a virtualenv, install dependencies and start the server.
 ```sh
 git clone https://github.com/1basilisk/finance
 cd finance
