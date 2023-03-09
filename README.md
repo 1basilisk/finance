@@ -50,6 +50,7 @@ Run the setup script
 ./setup.sh
 ```
 OR set up manually
+
 Install the python3.8, create a virtualenv, install dependencies and start the server.
 ```sh
 git clone https://github.com/1basilisk/finance
