@@ -87,6 +87,6 @@ button {
 @media only screen and (max-width: 600px) {
   body {
     /* background:url(https://source.unsplash.com/1080x2400?sunset+birdeye+ocean); */
-    background: url(/static/bg.jpg);
+    background: url(/static/bg.png)
   }
 }
