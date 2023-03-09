@@ -63,6 +63,7 @@ sudo apt install virtualenv
 virtualenv -p python3.8 env
 source env/bin/activate
 pip install --requirement requirements.txt
+export API_KEY=<your_api_key>
 flask run
 
 ```
@@ -71,6 +72,7 @@ flask run
 ```sh
 127.0.0.1:5000
 ```
+you can get your API_KEY by signing up on https://iexcloud.io/
 
   
 
