@@ -1,11 +1,11 @@
-# Stock Market Simulator
+# FinanceWithFlask
 ##### Practice your trading 
 
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-The web app enables you to simulate stock trading at real-time market prices FREE of cost.
+This web app has been designed to encourage financial literacy and to introduce beginners to Stock Trading by providing them with a platform to Buy, Sell and manage a porftolio of stocks. This app is an effort to enable the practice of "paper trading" but on a digital platform. 
 
 
 ## Features
@@ -74,5 +74,9 @@ flask run
 ```
 you can get your API_KEY by signing up on https://iexcloud.io/
 
+## Future Scope
+1. Addition of more realistic market simulating features like Stop Loss, Trigger Price, Share Volume
+2. Introducing Mutual Funds account management
+3. More secure password hashing algorithms
   
 
